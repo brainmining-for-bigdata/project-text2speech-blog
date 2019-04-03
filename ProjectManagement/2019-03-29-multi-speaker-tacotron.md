@@ -1,6 +1,9 @@
 ###  git 코드
 * https://github.com/srshin/multi-speaker-tacotron-tensorflow
 
+### 한국어 가이드
+* https://github.com/GSByeon/multi-speaker-tacotron-tensorflow/blob/master/README_ko.md
+
 ### Project Test code 실행가이드
 [Google API 실행](https://drive.google.com/open?id=1GUluk7qEeDN5y3cYXb_OFs8r8ao035-3)
 
