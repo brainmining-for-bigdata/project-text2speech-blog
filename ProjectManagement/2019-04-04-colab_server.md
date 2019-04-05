@@ -123,8 +123,37 @@
 
 # 5. Colab GPU 런타임 12시간 경과후 파일 소멸 관련 해결책
 
-  5-1 트레인 모델 폴더 구글 드라이브로 옮기기
-    
-  5-2 트레인 모델 폴더 zip파일로 압축하여 로컬에 다운받기
-    
-  5-3 트레인 모델 깃허브 레파지토리에 푸시하기
+  5-1 트레인 모델 깃허브 레파지토리에 푸시하기
+  
+  	# 개인 레파지토리에서 코드를 git clone한 상태로 진행
+	
+	# git 상태 확인
+	!git status
+	
+	# log파일 스테이지에 올리기
+	!git add --all
+	
+	# 스테이지 올라간 파일 중에서 커밋 안할 파일 빼기
+	!git reset HEAD 해당폴더명/해당파일명
+	
+	# 용량 많은 파일 github에 분산 전송할 프로그램(git-lfs) 설치하기
+	!apt-get install git-lfs
+	
+	# 현재 로컬 레파지토리를 git-lfs로 initialize 하기
+	!git lfs install
+	
+	# 용량 많을 파일 git-lfs추적하기
+	!git lfs track '폴더명/**'
+	
+	# 커밋하기전 colab 로컬 서버에 사용자 등록하기
+	!git config --global user.name "plato"
+	!git config --global user.email "elephamaximu@gmail.com"
+	
+	# 커밋하기
+	!git commit -m "커밋메시지"
+	
+	# colab 로컬 서버에 깃허브 리모트 레파지토리 계정 정보 넣어주기
+	!git remote -v set-url origin https://아이디:패스워드@github.com/elephamaximu/tacotest.git
+	
+	# 깃허브 리모트 레파지토리에 푸시하기
+	!git push -u origin master
