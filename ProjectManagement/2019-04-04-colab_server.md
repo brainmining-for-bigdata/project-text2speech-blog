@@ -109,7 +109,7 @@
  
   2-1. Preprocess the data : 
 	 
-		  !python preprocess.py --dataset ljspeech
+	!python preprocess.py --dataset ljspeech
        
 # 3. Training
 
@@ -118,6 +118,18 @@
 # 4. Colab에서 tensorboard 활용 및 트레인 모델 Synthesizing 하기
 
   4-1 tensorboard 활용
+  
+  	LOG_DIR = './logs-tacotron'
+  	get_ipython().system_raw(
+    		'tensorboard --logdir {} --host 0.0.0.0 --port 6006 &'
+    		.format(LOG_DIR)
+	)
+	
+	!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+	
+	!unzip ngrok-stable-linux-amd64.zip
+	
+	get_ipython().system_raw('./ngrok http 6006 &')
     
   4-2 Synthesize
 
