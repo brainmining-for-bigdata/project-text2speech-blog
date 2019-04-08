@@ -157,3 +157,7 @@
 	
 	# 깃허브 리모트 레파지토리에 푸시하기
 	!git push -u origin master
+
+# 6. 체크포인트에서 train 이어하기
+
+	!python train.py --restore_step=9000
