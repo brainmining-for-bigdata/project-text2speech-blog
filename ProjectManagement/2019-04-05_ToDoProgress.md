@@ -8,7 +8,8 @@
 
 ### Colab Test 
 * 04-05 
-- [ ]   04-04일자 training 종료된 시점(9000 step)부터 train 시도 
+- [X]   04-04일자 training 종료된 시점(9000 step)부터 train 시도: 9000에서 멈추었다가 16000까지 이어서 training
+-> 테스트 성능은 안좋음. 20000까지 training필요
 
 * 04-04 
 - [X]   시간초과로 session종료 (12시간 한도) -> git 사용하여 backup 시도 
