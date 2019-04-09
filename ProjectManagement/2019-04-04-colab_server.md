@@ -155,7 +155,7 @@
 	!git lfs install
 	
 	# 용량 많을 파일 git-lfs추적하기
-	!git lfs track '폴더명/**'
+	!git lfs track 'content/tacotest/logs-tacotron/**'
 	
 	# 커밋하기전 colab 로컬 서버에 사용자 등록하기
 	!git config --global user.name "plato"
