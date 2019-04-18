@@ -19,6 +19,8 @@
       
   	pip install -U numpy
   	pip install -U scipy 
+  	pip install -U librosa 
+	pip install unidecode
 
 # 2. Using a pre-trained model
  
