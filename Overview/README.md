@@ -29,6 +29,9 @@
 - [X]   Colab
 - [ ]   분산
 
+### Dataset
+https://github.com/brainmining-for-bigdata/project-text2speech-blog/blob/master/Overview/2019-04-22_Dataset.md
+
 ### Test Plan
 * Test code with single English data set
 - [X]   in server 
