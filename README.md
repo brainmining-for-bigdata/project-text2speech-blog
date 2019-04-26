@@ -2,7 +2,7 @@
 ## Original git
 * https://github.com/keithito/tacotron
 
-## Background
+## Papers
 * Google paper (published in April 2017): [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf) 
 ## Dataset
 *  LJ : https://keithito.com/LJ-Speech-Dataset/
