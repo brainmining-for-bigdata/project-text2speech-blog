@@ -19,12 +19,12 @@ https://github.com/minsuk-heo/kaggle-titanic
 https://github.com/rickiepark/introduction_to_ml_with_python
 
 ### Deep Learning
-- [X] 모두를 위한 딥러닝 강좌 시즌 1
+- [X] 모두를 위한 딥러닝 강좌 시즌 1  
 https://www.youtube.com/user/hunkims  
 https://github.com/hunkim/DeepLearningZeroToAll
 
 ### NLP
-- [X] 파이썬자연어처리
+- [X] 파이썬자연어처리  
 https://youtu.be/5D9742ID4XI  
 https://github.com/corazzon/KaggleStruggle/tree/master/word2vec-nlp-tutorial
 
