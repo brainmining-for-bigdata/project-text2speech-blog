@@ -12,7 +12,7 @@ https://google.github.io/tacotron/index.html
 
 ### Kaggle 
 - [X] Kaggle titanic solution  
-https://www.youtube.com/watch?v=aqp_9HV58Ls
+https://www.youtube.com/watch?v=aqp_9HV58Ls   
 https://github.com/minsuk-heo/kaggle-titanic  
 
 ### Machine Learning
