@@ -18,3 +18,6 @@
 * https://github.com/srshin/multi-speaker-tacotron-tensorflow
 
 
+### Google Cloud 배포
+
+* [GKE_DOCS](https://github.com/elephamaximu/gke_docs)
