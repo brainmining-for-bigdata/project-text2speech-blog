@@ -12,9 +12,6 @@
 * [blog/python/2019-04-01-tacotron2.md](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron2.md)
 * [blog/python/2019-04-01-tacotron3.md](https://github.com/srshin/blog/blob/master/python/2019-04-01-tacotron3-diagram.md)
 
-### Google Cloud 배포
-
-* [GKE_DOCS](https://github.com/elephamaximu/gke_docs)
 
 ### Docker로 Django 배포
 * https://github.com/srshin/docker
